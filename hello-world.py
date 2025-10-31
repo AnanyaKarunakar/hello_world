@@ -1,4 +1,5 @@
-def main();
-    print("Hello World! from CICD pipeline")
-if __name__ ="__main__"
-    main()
+def get_message():
+    return "Hello, World!"
+
+if __name__ == "__main__":
+    print(get_message())
