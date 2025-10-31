@@ -1,5 +1,5 @@
 import unittest
-from hello-world import get_message
+from app import get_message
 
 class TestApp(unittest.TestCase):
     def test_get_message(self):
